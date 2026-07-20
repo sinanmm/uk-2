@@ -6,7 +6,7 @@ import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Learn about Bayshield International UK's premium outdoor porcelain paving solutions."
+  description: "Learn about Pure Surface Solutions's premium outdoor porcelain paving solutions."
 };
 
 const advantages = [
@@ -24,7 +24,7 @@ export default function AboutPage() {
       <section className="page-hero about-page-hero">
         <div className="container page-hero-inner">
           <Reveal>
-            <span className="eyebrow">Bayshield International UK</span>
+            <span className="eyebrow">Pure Surface Solutions</span>
             <h1>Outdoor Porcelain Solutions Built to Last</h1>
             <p>Premium 20mm pavers for beautiful patios, gardens, pathways, terraces and driveways.</p>
           </Reveal>
@@ -54,7 +54,7 @@ export default function AboutPage() {
       <section className="section advantage-section">
         <div className="container">
           <Reveal className="section-heading">
-            <span className="eyebrow">Why Bayshield</span>
+            <span className="eyebrow">Why Pure Surface Solutions</span>
             <div className="section-title"><span/><h2>Premium Outdoor Performance</h2><span/></div>
           </Reveal>
           <div className="advantage-grid">
@@ -88,12 +88,12 @@ export default function AboutPage() {
           <Reveal>
             <span className="eyebrow">Nationwide Delivery Available</span>
             <h2>Premium outdoor porcelain delivered across the UK.</h2>
-            <p>Bayshield International UK – premium outdoor porcelain solutions built to last.</p>
+            <p>Pure Surface Solutions – premium outdoor porcelain solutions built to last.</p>
           </Reveal>
           <div className="contact-band-details">
-            <a href="tel:+447860215454"><Icon name="phone"/>+44 7860 215454</a>
+            <a href="tel:00447407048979"><Icon name="phone"/>0044-7407048979</a>
             <a href="tel:+441212493778"><Icon name="phone"/>0121 249 3778</a>
-            <a href="mailto:info@bayshieldinternational.com"><Icon name="mail"/>info@bayshieldinternational.com</a>
+            <a href="mailto:info@puresurface.co.uk"><Icon name="mail"/>info@puresurface.co.uk</a>
             <a href="https://bayshieldinternational.com"><Icon name="map"/>bayshieldinternational.com</a>
           </div>
         </div>

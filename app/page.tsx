@@ -4,7 +4,7 @@ import Icon from "@/components/Icon";
 import Reveal from "@/components/Reveal";
 
 const whatsappUrl =
-  "https://wa.me/447860215454?text=Hello%20Bayshield%20International%20UK%2C%20I%27d%20like%20a%20quote%20for%20outdoor%20porcelain%20pavers.";
+  "https://wa.me/447407048979?text=Hello%20Pure%20Surface%20Solutions%2C%20I%27d%20like%20a%20quote%20for%20outdoor%20porcelain%20pavers.";
 
 const benefits = [
   { icon: "diamond" as const, title: "Premium Quality", text: "Full-body porcelain surfaces" },
@@ -41,11 +41,9 @@ export default function HomePage() {
         <div className="hero-wash" />
         <div className="container hero-inner">
           <Reveal className="hero-copy">
-            <span className="eyebrow">Bayshield International UK</span>
-            <h1>Premium <em>Outdoor Porcelain</em> Pavers</h1>
+            <h1>Premium <em>Porcelain Tiles</em> & Slabs</h1>
             <div className="hero-rule" />
-            <h2>Designed for beautiful outdoor living.</h2>
-            <p>Upgrade patios, gardens, pathways, terraces and driveways with premium 20mm porcelain pavers engineered for the UK climate.</p>
+            <h2>Supplying for Residential & Commercial Projects across the UK</h2>
             <div className="hero-actions">
               <Link href="/contact" className="button button-primary button-large">Get a Quote <Icon name="arrow" size={19}/></Link>
               <a href={whatsappUrl} target="_blank" rel="noreferrer" className="button button-outline button-large"><Icon name="whatsapp" size={20}/> Chat on WhatsApp</a>
@@ -65,54 +63,131 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section product-overview">
+      <section className="product-overview-new">
         <div className="container">
-          <Reveal className="section-heading">
-            <span className="eyebrow">Our Products</span>
-            <div className="section-title"><span/><h2>Tiles &amp; Pavers in a Range of Sizes</h2><span/></div>
-          </Reveal>
-
-          <div className="overview-grid">
-            <Reveal className="overview-panel">
-              <div className="panel-label navy">Porcelain Tiles</div>
-              <div className="dimension-grid five">
-                {["300 × 300 mm", "600 × 600 mm", "600 × 1200 mm", "800 × 800 mm", "1000 × 1000 mm"].map((size) => <div key={size}>{size}</div>)}
-              </div>
-              <div className="feature-mini-grid">
-                <div><Icon name="water" size={37}/><strong>Water Resistant</strong></div>
-                <div><Icon name="diamond" size={37}/><strong>High Durability</strong></div>
-                <div><Icon name="sparkle" size={37}/><strong>Elegant Finish</strong></div>
-              </div>
-            </Reveal>
-
-            <Reveal className="overview-panel outdoor-panel" delay={120}>
-              <div className="panel-label green">Outdoor Porcelain Pavers</div>
-              <div className="thickness-grid">
-                <div><strong>6 mm</strong><small>Indoor surfaces</small></div>
-                <div><strong>12 mm</strong><small>Heavy-duty interiors</small></div>
-                <div className="highlight"><strong>20 mm</strong><small>Outdoor paving</small></div>
-              </div>
-              <div className="r11-card">
-                <div><span>R11 Patio Tile</span><strong>Anti-Slip Porcelain</strong></div>
-                <div className="sample-strip" />
-                <div><small>Popular size</small><strong>600 × 900 mm</strong></div>
-                <Icon name="shield" size={42}/>
-              </div>
-            </Reveal>
+          <div className="product-header reveal is-visible">
+            <span className="eyebrow">OUR PRODUCTS</span>
+            <h2>TILES &amp; SLABS IN A RANGE OF SIZES</h2>
+            <p>Premium surfaces. Timeless spaces. Designed for every project.</p>
           </div>
 
-          <Reveal className="category-wrap">
-            <h3 className="category-title">Shop by Category</h3>
-            <div className="category-grid">
-              {categories.map((category, index) => (
-                <Link href="/tiles" className="category-card" key={category.name} style={{ animationDelay: `${index * 60}ms` }}>
-                  <div className="category-image"><Image src={category.image} alt={category.name} fill sizes="(max-width: 700px) 50vw, 16vw" /></div>
-                  <span><Icon name="grid" size={18}/>{category.name}</span>
+          <div className="product-cards-wrap reveal is-visible">
+            <div className="product-card-split">
+              <div className="product-badge navy">
+                <Icon name="grid" size={18} /> PORCELAIN TILES
+              </div>
+              
+              <div className="product-card-inner">
+                <div className="product-subhead">
+                  <span/> AVAILABLE SIZES
+                </div>
+                
+                <div className="tile-size-grid">
+                  <div className="tile-size-box">
+                    <div className="shape-rect-tall"></div>
+                    <span>600 x 300 mm</span>
+                  </div>
+                  <div className="tile-size-box">
+                    <div className="shape-square"></div>
+                    <span>600 x 600 mm</span>
+                  </div>
+                  <div className="tile-size-box">
+                    <div className="shape-rect-tall-large"></div>
+                    <span>600 x 900 mm</span>
+                  </div>
+                  <div className="tile-size-box">
+                    <div className="shape-rect-wide"></div>
+                    <span>1200 x 600 mm</span>
+                  </div>
+                </div>
+
+                <div className="anti-slip-banner">
+                  <div className="anti-slip-icon">
+                    <Icon name="shield" size={42} />
+                    <span>R11</span>
+                  </div>
+                  <div className="anti-slip-text">
+                    <strong>R11 ANTI-SLIP TILES</strong>
+                    <p>Safe, slip-resistant surfaces perfect for outdoor and wet areas.</p>
+                  </div>
+                  <div className="anti-slip-bg"></div>
+                </div>
+                
+                <Link href="/tiles" className="button-full navy">
+                  EXPLORE PORCELAIN TILES RANGE &rarr;
                 </Link>
-              ))}
+              </div>
             </div>
-            <Link href="/tiles" className="button button-primary centered-button">View All Products <Icon name="arrow" size={18}/></Link>
-          </Reveal>
+
+            <div className="product-card-split">
+              <div className="product-badge green">
+                <Icon name="layer" size={18} /> PORCELAIN SLABS
+              </div>
+              
+              <div className="product-card-inner">
+                <div className="product-subhead">
+                  <span/> AVAILABLE SIZES &amp; THICKNESSES
+                </div>
+                
+                <div className="slab-size-grid">
+                  <div className="slab-size-box">
+                    <strong className="green-text">6 mm</strong>
+                    <small>(3.12 SQM)</small>
+                    <div className="shape-iso-slab"></div>
+                    <span>2600 x 1200 mm</span>
+                  </div>
+                  <div className="slab-size-box">
+                    <strong className="green-text">12 mm</strong>
+                    <small>(5.12 SQM)</small>
+                    <div className="shape-iso-slab thick-12"></div>
+                    <span>3200 x 1600 mm</span>
+                  </div>
+                  <div className="slab-size-box highlight">
+                    <strong className="green-text">20 mm</strong>
+                    <small>(5.12 SQM)</small>
+                    <div className="shape-iso-slab thick-20"></div>
+                    <span>3200 x 1600 mm</span>
+                  </div>
+                </div>
+                
+                <Link href="/slabs" className="button-full green">
+                  EXPLORE PORCELAIN SLABS RANGE &rarr;
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="contact-strip-bar">
+          <div className="container contact-strip-grid">
+            <div className="contact-strip-item">
+              <div className="icon-wrap solid-green"><Icon name="whatsapp" size={24}/></div>
+              <div>
+                <strong>WHATSAPP US</strong>
+                <small>Chat with our team instantly</small>
+              </div>
+            </div>
+            <div className="contact-strip-item">
+              <div className="icon-wrap outline-green"><Icon name="mail" size={24}/></div>
+              <div>
+                <strong>EMAIL US</strong>
+                <small>Send us your requirements</small>
+              </div>
+            </div>
+            <div className="contact-strip-item">
+              <div className="icon-wrap outline-green"><Icon name="document" size={24}/></div>
+              <div>
+                <strong>REQUEST A QUOTE</strong>
+                <small>Get a personalised quote today</small>
+              </div>
+            </div>
+            <div className="contact-strip-item">
+              <div className="icon-wrap outline-green"><Icon name="headset" size={24}/></div>
+              <div>
+                <strong>EXPERT SUPPORT</strong>
+                <small>Our surface experts are here to help you choose right</small>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -120,15 +195,42 @@ export default function HomePage() {
         <div className="container serve-grid">
           <Reveal className="serve-copy">
             <span className="eyebrow">Who We Serve</span>
-            <div className="section-title left"><span/><h2>We Supply &amp; Support</h2><span/></div>
+            <div className="section-title">
+              <span/><h2>We Supply &amp; Support</h2><span/>
+            </div>
+            <p>Premium porcelain tiles and slabs for every project.<br/>Trusted by professionals and homeowners <strong style={{color: '#5d9d2b'}}>across the UK.</strong></p>
             <div className="audience-grid">
               {audiences.map((audience) => (
-                <div className="audience-card" key={audience.label}><Icon name={audience.icon} size={38}/><strong>{audience.label}</strong></div>
+                <div className="audience-card" key={audience.label}>
+                  <Icon name={audience.icon} size={42}/>
+                  <div className="audience-card-divider"></div>
+                  <strong>{audience.label}</strong>
+                </div>
               ))}
             </div>
           </Reveal>
           <Reveal className="delivery-card" delay={120}>
-            <Image src="/images/delivery-map.jpg" alt="Delivered across the UK" fill sizes="300px" />
+            <div className="delivery-card-header">
+              <div className="delivery-icon-circle">
+                <Icon name="truck" size={24} />
+              </div>
+              <div className="delivery-card-header-text">
+                <small>Delivered</small>
+                <strong>Across the UK</strong>
+              </div>
+            </div>
+            <div className="delivery-map-area">
+              <Image src="/images/delivery-map-highres.png" alt="Delivered across the UK" fill style={{ objectFit: 'cover', objectPosition: 'center' }} sizes="(max-width: 860px) 100vw, 350px" />
+            </div>
+            <div className="delivery-card-footer">
+              <div className="delivery-check-circle">
+                <Icon name="check" size={20} />
+              </div>
+              <div className="delivery-footer-text">
+                <strong>Nationwide Delivery</strong>
+                <small>Fast, safe &amp; reliable.</small>
+              </div>
+            </div>
           </Reveal>
         </div>
       </section>
@@ -137,8 +239,8 @@ export default function HomePage() {
         <Reveal className="about-intro">
           <span className="eyebrow">About Us</span>
           <h2>The Trusted Choice for Outdoor Porcelain</h2>
-          <p>Bayshield International UK supplies premium porcelain pavers for residential, landscape and commercial projects across the UK. Our collections combine refined design, reliable grip and long-lasting performance.</p>
-          <Link href="/about" className="text-link">Discover Bayshield <Icon name="arrow" size={18}/></Link>
+          <p>Pure Surface Solutions supplies premium porcelain pavers for residential, landscape and commercial projects across the UK. Our collections combine refined design, reliable grip and long-lasting performance.</p>
+          <Link href="/about" className="text-link">Discover Pure Surface Solutions <Icon name="arrow" size={18}/></Link>
         </Reveal>
         <Reveal className="why-panel" delay={100}>
           <span className="eyebrow">Why Choose Us</span>

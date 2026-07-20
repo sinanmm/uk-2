@@ -24,7 +24,24 @@ type IconName =
   | "map"
   | "menu"
   | "close"
-  | "chevron";
+  | "chevron"
+  | "layer"
+  | "document"
+  | "headset"
+  | "couch"
+  | "kitchen"
+  | "bath"
+  | "bed"
+  | "storefront"
+  | "leaf"
+  | "shield-cross"
+  | "flame"
+  | "door-open"
+  | "sun"
+  | "spray"
+  | "scatter"
+  | "droplet"
+  | "calendar";
 
 interface IconProps extends SVGProps<SVGSVGElement> {
   name: IconName;
@@ -68,7 +85,24 @@ export default function Icon({ name, size = 22, ...props }: IconProps) {
     map: <><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3z"/><path d="M9 3v15M15 6v15"/></>,
     menu: <><path d="M4 6h16M4 12h16M4 18h16"/></>,
     close: <><path d="m6 6 12 12M18 6 6 18"/></>,
-    chevron: <path d="m9 18 6-6-6-6"/>
+    chevron: <path d="m9 18 6-6-6-6"/>,
+    layer: <><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 12 12 17 22 12"/><polyline points="2 17 12 22 22 17"/></>,
+    document: <><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></>,
+    headset: <><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></>,
+    couch: <><path d="M20 9V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v3"/><path d="M2 16v-2a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"/><path d="M6 18v2"/><path d="M18 18v2"/></>,
+    kitchen: <><path d="M6 18v3"/><path d="M18 18v3"/><rect x="2" y="3" width="20" height="15" rx="2"/><path d="M6 8h12"/><path d="M12 18V8"/></>,
+    bath: <><path d="M2 12h20"/><path d="M4 12v3a5 5 0 0 0 5 5h6a5 5 0 0 0 5-5v-3"/><path d="M9 7V2h6v5"/><path d="M12 2v5"/><path d="M6 12V9a2 2 0 0 1 2-2h1"/><path d="M5 20v2"/><path d="M19 20v2"/></>,
+    bed: <><path d="M2 4v16"/><path d="M2 8h18a2 2 0 0 1 2 2v10"/><path d="M2 17h20"/><path d="M6 8v9"/></>,
+    storefront: <><path d="M3 9l1.5-6h15L21 9"/><path d="M3 9a2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 2 2H1z"/><path d="M4 11v10h16V11"/><path d="M10 11v10"/></>,
+    leaf: <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>,
+    "shield-cross": <><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12h6"/><path d="M12 9v6"/></>,
+    flame: <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>,
+    "door-open": <><path d="M13 4h3a2 2 0 0 1 2 2v14"/><path d="M2 20h3"/><path d="M13 20h9"/><path d="M10 12v.01"/><path d="M13 4.562v16.157a1 1 0 0 1-1.242.97L5 20V5.562a2 2 0 0 1 1.515-1.94l4-1A2 2 0 0 1 13 4.561Z"/></>,
+    sun: <><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></>,
+    spray: <><path d="M13 4h2a2 2 0 0 1 2 2v14H7V6a2 2 0 0 1 2-2h2"/><path d="M10 2v2"/><path d="M14 2v2"/><path d="M9 6v3"/><path d="M15 6v3"/><path d="M5 22v-4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v4"/></>,
+    scatter: <><circle cx="5" cy="5" r="2"/><circle cx="19" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><circle cx="12" cy="12" r="2"/></>,
+    droplet: <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>,
+    calendar: <><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></>
   };
 
   return <svg {...common} {...props}>{paths[name]}</svg>;

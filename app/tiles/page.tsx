@@ -6,7 +6,7 @@ import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
   title: "Porcelain Tiles",
-  description: "Explore Bayshield International UK's premium porcelain tile and outdoor paver collection."
+  description: "Explore Pure Surface Solutions's premium porcelain tile and outdoor paver collection."
 };
 
 export default function TilesPage() {
@@ -40,7 +40,7 @@ export default function TilesPage() {
           <Reveal className="need-help-inner">
             <h2>Need Help Choosing?</h2>
             <p>Our team is here to help you find the perfect tiles for your project.</p>
-            <a className="button button-primary" href="https://wa.me/447860215454?text=Hello%20Bayshield%2C%20I%20need%20help%20choosing%20porcelain%20tiles." target="_blank" rel="noreferrer"><Icon name="whatsapp" size={19}/> Chat on WhatsApp</a>
+            <a className="button button-primary" href="https://wa.me/447407048979?text=Hello%20Pure%20Surface%20Solutions%2C%20I%20need%20help%20choosing%20porcelain%20tiles." target="_blank" rel="noreferrer"><Icon name="whatsapp" size={19}/> Chat on WhatsApp</a>
           </Reveal>
         </div>
       </section>

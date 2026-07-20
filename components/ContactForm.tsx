@@ -17,7 +17,7 @@ export default function ContactForm() {
     const subject = encodeURIComponent(`Website enquiry from ${name}`);
     const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nProject: ${project}\n\nMessage:\n${message}`);
     setSent(true);
-    window.location.href = `mailto:info@bayshieldinternational.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:info@puresurface.co.uk?subject=${subject}&body=${body}`;
   }
 
   return (

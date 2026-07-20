@@ -131,7 +131,7 @@ export default function ProductExplorer() {
                 <li><Icon name="check" size={18}/>Weather, stain and frost resistant</li>
                 <li><Icon name="check" size={18}/>Nationwide UK delivery available</li>
               </ul>
-              <a className="button button-primary" href={`https://wa.me/447860215454?text=${encodeURIComponent(`Hello Bayshield, I am interested in ${selected.name}.`)}`} target="_blank" rel="noreferrer">
+              <a className="button button-primary" href={`https://wa.me/447407048979?text=${encodeURIComponent(`Hello Pure Surface Solutions, I am interested in ${selected.name}.`)}`} target="_blank" rel="noreferrer">
                 <Icon name="whatsapp" size={18}/> Enquire on WhatsApp
               </a>
             </div>

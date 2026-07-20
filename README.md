@@ -27,10 +27,10 @@ npm start
 
 ## Main contact links configured
 
-- Sales number from the supplied reference: `07776 636037`
+- Sales number from the supplied reference: `0044-7407048979`
 - WhatsApp: `+44 7860 215454`
 - Office: `0121 249 3778`
-- Email: `info@bayshieldinternational.com`
+- Email: `info@puresurface.co.uk`
 - Website: `bayshieldinternational.com`
 
 The quote form opens the visitor's email application with the submitted details. Connect it to a server action, Formspree, Resend, or your own API when deploying if direct form delivery is required.

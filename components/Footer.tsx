@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import Icon from "./Icon";
 
 export default function Footer() {
@@ -6,9 +7,8 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-grid">
         <div className="footer-brand">
-          <Link href="/" className="brand brand-light">
-            <span className="brand-mark"><span>B</span></span>
-            <span className="brand-copy"><strong>BAYSHIELD</strong><small>INTERNATIONAL UK</small></span>
+          <Link href="/" className="brand brand-light" aria-label="Pure Surface Solutions home">
+            <Image src="/images/logo_round.png" alt="Pure Surface Solutions Logo" width={140} height={140} style={{ objectFit: 'contain' }} />
           </Link>
           <p>Premium outdoor porcelain pavers for patios, gardens, terraces, pathways and driveways across the UK.</p>
         </div>
@@ -28,15 +28,15 @@ export default function Footer() {
         </div>
         <div className="footer-contact">
           <h3>Contact Us</h3>
-          <a href="tel:+447860215454"><Icon name="phone" size={17}/>+44 7860 215454</a>
+          <a href="tel:00447407048979"><Icon name="phone" size={17}/>0044-7407048979</a>
           <a href="tel:+441212493778"><Icon name="phone" size={17}/>0121 249 3778</a>
-          <a href="mailto:info@bayshieldinternational.com"><Icon name="mail" size={17}/>info@bayshieldinternational.com</a>
+          <a href="mailto:info@puresurface.co.uk"><Icon name="mail" size={17}/>info@puresurface.co.uk</a>
           <span><Icon name="truck" size={18}/>Nationwide UK delivery</span>
         </div>
       </div>
       <div className="footer-bottom">
         <div className="container footer-bottom-inner">
-          <span>© {new Date().getFullYear()} Bayshield International UK. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} Pure Surface Solutions. All rights reserved.</span>
           <span>Privacy Policy <i/> Terms &amp; Conditions</span>
         </div>
       </div>
