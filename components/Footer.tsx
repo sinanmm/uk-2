@@ -7,8 +7,9 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-grid">
         <div className="footer-brand">
-          <Link href="/" className="brand brand-light" aria-label="Pure Surface Solutions home">
-            <Image src="/images/logo_round.png" alt="Pure Surface Solutions Logo" width={140} height={140} style={{ objectFit: 'contain' }} />
+          <Link href="/" className="brand brand-light" aria-label="Pure Surface Solutions home" style={{ position: 'relative', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 180, height: 180 }}>
+            <div style={{ position: 'absolute', width: '134px', height: '134px', backgroundColor: '#ffffff', borderRadius: '50%' }}></div>
+            <Image src="/images/logo_round.png" alt="Pure Surface Solutions Logo" width={180} height={180} style={{ objectFit: 'contain', position: 'relative', zIndex: 1 }} />
           </Link>
           <p>Premium outdoor porcelain pavers for patios, gardens, terraces, pathways and driveways across the UK.</p>
         </div>

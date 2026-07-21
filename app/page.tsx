@@ -36,7 +36,7 @@ export default function HomePage() {
     <>
       <section className="hero home-hero">
         <div className="hero-visual" aria-hidden="true">
-          <Image src="/images/hero-home.jpg" alt="Premium porcelain slabs in a modern interior" fill priority sizes="100vw" />
+          <Image src="/images/hero-home-generated.png" alt="Premium porcelain slabs in a modern interior" fill priority sizes="100vw" style={{ objectFit: 'cover' }} />
         </div>
         <div className="hero-wash" />
         <div className="container hero-inner">
