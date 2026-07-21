@@ -48,9 +48,9 @@ const slabSizes = [
 ];
 
 const finishes = [
-  { id: 'gloss', label: 'Gloss', img: '/images/porcelain-slabs/finishes/gloss-finish.webp' },
-  { id: 'matt', label: 'Matt', img: '/images/porcelain-slabs/finishes/matt-finish.webp' },
-  { id: 'silk', label: 'Silk', img: '/images/porcelain-slabs/finishes/silk-finish.webp' },
+  { id: 'gloss', label: 'Gloss', img: '/images/porcelain-slabs/finishes/gloss-finish.png' },
+  { id: 'matt', label: 'Matt', img: '/images/porcelain-slabs/finishes/matt-finish.png' },
+  { id: 'silk', label: 'Silk', img: '/images/porcelain-slabs/finishes/silk-finish.png' },
 ];
 
 const colours = [

@@ -22,10 +22,10 @@ export default function Footer() {
         </div>
         <div>
           <h3>Our Products</h3>
-          <Link href="/tiles">20mm Outdoor Pavers</Link>
-          <Link href="/tiles">R11 Anti-Slip Tiles</Link>
-          <Link href="/tiles">Natural Stone Effects</Link>
-          <Link href="/tiles">Commercial Porcelain</Link>
+          <Link href="/porcelain-tiles#our-products">20mm Outdoor Pavers</Link>
+          <Link href="/porcelain-tiles#our-products">R11 Anti-Slip Tiles</Link>
+          <Link href="/porcelain-tiles#our-products">Natural Stone Effects</Link>
+          <Link href="/porcelain-tiles#our-products">Commercial Porcelain</Link>
         </div>
         <div className="footer-contact">
           <h3>Contact Us</h3>

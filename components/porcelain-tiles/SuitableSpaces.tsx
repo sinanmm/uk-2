@@ -3,7 +3,7 @@ import { applications } from "@/lib/data/porcelain-tiles";
 
 export default function SuitableSpaces() {
   return (
-    <section className="pt-spaces-section">
+    <section id="our-products" className="pt-spaces-section">
       <div className="container">
         <Reveal>
           <h2 className="pt-section-title">SUITABLE FOR EVERY SPACE</h2>
