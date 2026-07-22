@@ -26,7 +26,7 @@ const slabSizes = [
     thickness: '6 mm', 
     weight: '(3.12 SQM)', 
     dims: '2600 × 1200 mm',
-    img: '/images/porcelain-slabs/products/slab-6mm.webp',
+    img: '/images/porcelain-slabs/products/slab-6mm-final-v10.png',
     alt: 'Thin 6 millimetre white marble-effect porcelain slab'
   },
   { 
@@ -34,7 +34,7 @@ const slabSizes = [
     thickness: '12 mm', 
     weight: '(5.12 SQM)', 
     dims: '3200 × 1600 mm',
-    img: '/images/porcelain-slabs/products/slab-12mm.webp',
+    img: '/images/porcelain-slabs/products/slab-12mm-final-v10.png',
     alt: '12 millimetre white marble-effect large-format porcelain slab'
   },
   { 
@@ -42,7 +42,7 @@ const slabSizes = [
     thickness: '20 mm', 
     weight: '(5.12 SQM)', 
     dims: '3200 × 1600 mm',
-    img: '/images/porcelain-slabs/products/slab-20mm.webp',
+    img: '/images/porcelain-slabs/products/slab-20mm-final-v10.png',
     alt: 'Thick 20 millimetre beige stone-effect porcelain slab'
   },
 ];
@@ -104,11 +104,11 @@ export default function PorcelainSlabsPage() {
       <section className="slabs-hero">
         <div className="slabs-hero-bg">
           <Image 
-            src="/images/porcelain-slabs/hero-luxury-kitchen.webp" 
-            alt="Luxury kitchen with a large marble-effect porcelain slab island" 
+            src="/images/porcelain-slabs/hero-slabs-4k-final-v10.png" 
+            alt="Luxury modern kitchen with a large 4K marble-effect porcelain slab island" 
             fill 
             priority
-            style={{ objectFit: 'cover', objectPosition: '70% center' }} 
+            style={{ objectFit: 'cover', objectPosition: 'left center' }} 
             sizes="100vw"
           />
         </div>
@@ -241,10 +241,10 @@ export default function PorcelainSlabsPage() {
           <section className="slabs-cta-section">
             <div className="slabs-cta-bg">
               <Image 
-                src="/images/porcelain-slabs/cta/slab-kitchen-cta.webp" 
-                alt="Luxury dark kitchen with a large porcelain slab island" 
+                src="/images/porcelain-slabs/cta/slab-kitchen-cta-4k.png" 
+                alt="Luxury dark kitchen with a large 4K marble porcelain slab island" 
                 fill 
-                style={{ objectFit: 'cover', objectPosition: '80% center' }}
+                style={{ objectFit: 'cover', objectPosition: 'left center' }}
                 sizes="100vw"
               />
             </div>

@@ -1,8 +1,11 @@
 /* Porcelain Slabs CSS Redesign */
 .slabs-page {
   background-color: #F8F9FA;
-  color: #0A2244;
-  font-family: inherit;
+  color: #041628;
+  font-family: var(--font-plus-jakarta), var(--font-montserrat), sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.6;
   padding-bottom: 60px;
 }
 
@@ -88,34 +91,40 @@
 
 .slabs-breadcrumb {
   color: #FFFFFF;
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 700;
   margin-bottom: 24px;
-  opacity: 0.8;
+  opacity: 0.95;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .slabs-hero-h1 {
   color: #FFFFFF;
-  font-weight: 700;
+  font-weight: 900;
+  font-family: var(--font-outfit), sans-serif;
   text-transform: uppercase;
-  line-height: 1.1;
-  font-size: clamp(34px, 5vw, 64px);
+  line-height: 1.08;
+  font-size: clamp(38px, 5vw, 68px);
   margin: 0 0 8px 0;
+  letter-spacing: -0.5px;
 }
 
 .slabs-hero-subtitle {
   color: #59A92E;
-  font-size: clamp(22px, 3vw, 28px);
-  font-weight: 600;
+  font-family: var(--font-outfit), sans-serif;
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 800;
   margin: 0 0 20px 0;
 }
 
 .slabs-hero-desc {
   color: #FFFFFF;
-  font-size: clamp(17px, 2vw, 19px);
-  line-height: 1.6;
+  font-size: clamp(18px, 2vw, 20px);
+  font-weight: 600;
+  line-height: 1.65;
   margin: 0 0 40px 0;
-  max-width: 520px;
+  max-width: 540px;
 }
 
 .slabs-hero-features {
@@ -188,16 +197,19 @@
 }
 
 .slabs-section-title {
-  color: #0A2244;
-  font-size: clamp(22px, 3vw, 28px);
-  font-weight: 700;
+  color: #062743;
+  font-family: var(--font-outfit), sans-serif;
+  font-size: clamp(25px, 3.2vw, 34px);
+  font-weight: 900;
   text-transform: uppercase;
   margin: 0;
+  letter-spacing: -0.5px;
 }
 
 .slabs-section-subtitle {
-  color: #4E6074;
-  font-size: 16px;
+  color: #35475a;
+  font-size: 17px;
+  font-weight: 600;
   margin: 0;
 }
 

@@ -6,18 +6,20 @@
   --pt-bg-dark: #001B35;
   --pt-green: #5AAE32;
   --pt-green-hover: #4A9829;
-  --pt-text: #102645;
-  --pt-text-sec: #536175;
+  --pt-text: #061933;
+  --pt-text-sec: #2a3b52;
   --pt-bg: #FFFFFF;
   --pt-bg-soft: #F7F9FB;
   --pt-border: #DDE4EA;
   --pt-line: #E8EDF1;
   --pt-muted: #F3F6F8;
   
-  font-family: var(--font-montserrat), sans-serif;
+  font-family: var(--font-plus-jakarta), var(--font-montserrat), sans-serif;
   color: var(--pt-text);
   background: var(--pt-bg);
-  line-height: 1.5;
+  line-height: 1.6;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .pt-redesign-page .container {
@@ -68,38 +70,42 @@
 }
 
 .pt-breadcrumb {
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 24px;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 .pt-breadcrumb a { transition: color 0.2s; }
 .pt-breadcrumb a:hover { color: var(--pt-green); }
 .pt-breadcrumb span { color: var(--pt-green); }
 
 .pt-hero-h1 {
-  font-size: clamp(34px, 4vw, 64px);
-  font-weight: 850;
+  font-size: clamp(38px, 4.5vw, 68px);
+  font-weight: 900;
+  font-family: var(--font-outfit), sans-serif;
   margin: 0 0 8px 0;
-  line-height: 1.1;
+  line-height: 1.08;
   letter-spacing: -0.5px;
 }
 
 .pt-hero-h2 {
-  font-size: clamp(20px, 2.5vw, 26px);
-  font-weight: 700;
+  font-size: clamp(22px, 2.8vw, 30px);
+  font-weight: 800;
+  font-family: var(--font-outfit), sans-serif;
   color: var(--pt-green);
   margin: 0 0 24px 0;
 }
 
 .pt-hero-p {
-  font-size: 17px;
-  font-weight: 500;
-  max-width: 45%;
+  font-size: 18px;
+  font-weight: 600;
+  max-width: 48%;
   margin: 0 0 40px 0;
-  opacity: 0.9;
+  color: rgba(255,255,255,0.98);
+  opacity: 1;
+  line-height: 1.65;
 }
 
 .pt-hero-features-row {
@@ -158,15 +164,18 @@
 
 /* SECTION TITLE */
 .pt-section-title {
-  font-size: 20px;
-  font-weight: 800;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: var(--font-outfit), sans-serif;
   text-align: center;
   margin: 0 0 24px 0;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 .pt-spec-title {
-  font-size: 16px;
-  font-weight: 800;
+  font-size: 19px;
+  font-weight: 850;
+  font-family: var(--font-outfit), sans-serif;
   color: var(--pt-navy);
   margin: 0 0 20px 0;
 }
@@ -198,8 +207,8 @@
   margin-bottom: 12px;
 }
 .pt-space-label {
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 800;
   color: var(--pt-text);
   line-height: 1.3;
 }

@@ -71,6 +71,58 @@ export default function HomePage() {
             <p>Premium surfaces. Timeless spaces. Designed for every project.</p>
           </div>
 
+          <div className="product-top-feature-row reveal is-visible">
+            <div className="supplying-info-col">
+              <h3>PREMIUM PORCELAIN <br/><span>TILES &amp; SLABS</span></h3>
+              <div className="supplying-for">
+                <span className="supplying-label">SUPPLYING FOR :</span>
+                <div className="supplying-pills">
+                  <div className="pill-item">
+                    <Icon name="home" size={17} /> <span>RESIDENTIAL</span>
+                  </div>
+                  <div className="pill-item">
+                    <Icon name="building" size={17} /> <span>COMMERCIAL PROJECTS</span>
+                  </div>
+                  <div className="pill-item">
+                    <span className="uk-flag">🇬🇧</span> <span>ACROSS THE UK.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="r11-spotlight-card">
+              <div className="r11-card-content">
+                <div className="r11-card-header">
+                  <h4 className="r11-card-title">R11 PATIO TILE</h4>
+                  <span className="r11-badge">ANTI-SLIP PORCELAIN</span>
+                </div>
+                
+                <div className="r11-size-tag">
+                  <span>AVAILABLE SIZE —</span>
+                  <strong>600 × 900 mm</strong>
+                </div>
+                
+                <ul className="r11-checklist">
+                  <li><span className="check-icon">✓</span> Anti-Slip Surface (R11 Rating)</li>
+                  <li><span className="check-icon">✓</span> Outdoor Weather Durable</li>
+                  <li><span className="check-icon">✓</span> Perfect for Patios &amp; Walkways</li>
+                </ul>
+              </div>
+              
+              <div className="r11-card-preview">
+                <div className="r11-circle-img">
+                  <Image 
+                    src="/images/r11-patio-swatch.png" 
+                    alt="R11 Patio Tile Swatch" 
+                    fill
+                    sizes="120px"
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="product-cards-wrap reveal is-visible">
             <div className="product-card-split">
               <div className="product-badge navy">
@@ -113,7 +165,7 @@ export default function HomePage() {
                   <div className="anti-slip-bg"></div>
                 </div>
                 
-                <Link href="/tiles" className="button-full navy">
+                <Link href="/porcelain-tiles" className="button-full navy">
                   EXPLORE PORCELAIN TILES RANGE &rarr;
                 </Link>
               </div>
@@ -150,11 +202,27 @@ export default function HomePage() {
                   </div>
                 </div>
                 
-                <Link href="/slabs" className="button-full green">
+                <Link href="/porcelain-slabs" className="button-full green">
                   EXPLORE PORCELAIN SLABS RANGE &rarr;
                 </Link>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className="category-footer-bar">
+          <div className="container category-footer-grid">
+            <div className="cat-footer-item"><Icon name="grid" size={18} /> <span>FLOOR TILES</span></div>
+            <div className="cat-footer-divider" />
+            <div className="cat-footer-item"><Icon name="building" size={18} /> <span>WALL TILES</span></div>
+            <div className="cat-footer-divider" />
+            <div className="cat-footer-item"><Icon name="home" size={18} /> <span>KITCHEN</span></div>
+            <div className="cat-footer-divider" />
+            <div className="cat-footer-item"><Icon name="home" size={18} /> <span>BATHROOM</span></div>
+            <div className="cat-footer-divider" />
+            <div className="cat-footer-item"><Icon name="building" size={18} /> <span>COMMERCIAL SPACES</span></div>
+            <div className="cat-footer-divider" />
+            <div className="cat-footer-item"><Icon name="diamond" size={18} /> <span>AND MORE</span></div>
           </div>
         </div>
         <div className="contact-strip-bar">
