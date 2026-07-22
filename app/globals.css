@@ -43,10 +43,10 @@ img { max-width: 100%; }
 main { overflow: hidden; }
 .container { width: min(var(--container), calc(100% - 40px)); margin: 0 auto; }
 
-.topbar { background: var(--navy); color: #fff; font-size: 14px; font-weight: 600; }
-.topbar-inner { min-height: 40px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.topbar { background: var(--navy); color: #fff; font-size: 15px; font-weight: 700; }
+.topbar-inner { min-height: 42px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
 .topbar-group { display: flex; align-items: center; gap: 26px; }
-.topbar-group a, .topbar-group span { display: inline-flex; align-items: center; gap: 8px; opacity: 1; transition: opacity .2s ease, color .2s ease; font-weight: 600; }
+.topbar-group a, .topbar-group span { display: inline-flex; align-items: center; gap: 8px; opacity: 1; transition: opacity .2s ease, color .2s ease; font-weight: 700; font-size: 15px; }
 .topbar-group a:hover { opacity: 1; color: #b4d98f; }
 .topbar-right { margin-left: auto; }
 
@@ -59,7 +59,7 @@ main { overflow: hidden; }
 .brand-mark span { font-weight: 900; font-size: 29px; line-height: 1; color: var(--navy); z-index: 1; font-family: var(--font-outfit), sans-serif; }
 .brand-copy { display: grid; line-height: .95; }
 .brand-copy strong { font-size: 28px; letter-spacing: -.9px; color: var(--navy); font-family: var(--font-outfit), sans-serif; font-weight: 900; }
-.brand-copy small { margin-top: 7px; color: var(--green-dark); letter-spacing: 4px; font-size: 11px; font-weight: 850; }
+.brand-copy small { margin-top: 7px; color: var(--green-dark); letter-spacing: 3.5px; font-size: 13px; font-weight: 850; }
 .main-nav { margin-left: auto; display: flex; align-items: center; gap: 28px; }
 .main-nav > a { position: relative; padding: 37px 0 32px; text-transform: uppercase; font-size: 14px; font-weight: 800; letter-spacing: .5px; }
 .main-nav > a::after { content: ""; position: absolute; left: 0; right: 100%; bottom: 25px; height: 3px; background: var(--green); transition: right .25s ease; }
@@ -660,16 +660,16 @@ main { overflow: hidden; }
 .footer-grid { display: grid; grid-template-columns: 1.35fr .75fr .95fr 1.1fr; gap: 42px; padding: 46px 0 38px; }
 .brand-light .brand-mark { background: var(--navy); border-color: #fff; }
 .brand-light .brand-mark span, .brand-light .brand-copy strong { color: #fff; }
-.footer-brand p { max-width: 300px; color: rgba(255,255,255,.72); line-height: 1.55; font-size: 13px; }
-.footer h3 { margin: 0 0 14px; text-transform: uppercase; font-size: 12px; letter-spacing: .5px; }
-.footer-grid > div:not(:first-child) { display: grid; align-content: start; gap: 8px; }
-.footer-grid a, .footer-grid span { font-size: 12px; color: rgba(255,255,255,.8); }
-.footer-grid a:hover { color: #a7d476; }
+.footer-brand p { max-width: 310px; color: rgba(255,255,255,.92); line-height: 1.6; font-size: 15px; font-weight: 600; }
+.footer h3 { margin: 0 0 16px; text-transform: uppercase; font-size: 14px; letter-spacing: .8px; font-weight: 900; color: #fff; }
+.footer-grid > div:not(:first-child) { display: grid; align-content: start; gap: 10px; }
+.footer-grid a, .footer-grid span { font-size: 14px; color: rgba(255,255,255,.95); font-weight: 650; }
+.footer-grid a:hover { color: #b4e678; text-decoration: underline; }
 .footer-contact a, .footer-contact span { display: flex; align-items: center; gap: 9px; }
 .footer-contact svg { color: #82b83b; flex-shrink: 0; }
 .footer-bottom { border-top: 1px solid rgba(255,255,255,.16); border-bottom: 6px solid var(--green); }
-.footer-bottom-inner { min-height: 44px; display: flex; align-items: center; justify-content: space-between; gap: 20px; font-size: 11px; color: rgba(255,255,255,.65); }
-.footer-bottom i { display: inline-block; width: 1px; height: 12px; background: rgba(255,255,255,.35); margin: 0 9px; vertical-align: middle; }
+.footer-bottom-inner { min-height: 48px; display: flex; align-items: center; justify-content: space-between; gap: 20px; font-size: 13px; font-weight: 650; color: rgba(255,255,255,.85); }
+.footer-bottom i { display: inline-block; width: 1px; height: 14px; background: rgba(255,255,255,.35); margin: 0 9px; vertical-align: middle; }
 
 .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s cubic-bezier(.2,.65,.2,1); }
 .reveal.is-visible { opacity: 1; transform: translateY(0); }

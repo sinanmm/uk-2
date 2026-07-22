@@ -218,7 +218,7 @@
 }
 .pt-space-outdoor .pt-space-icon-wrapper { color: var(--pt-green); }
 .pt-space-outdoor .pt-space-label { color: var(--pt-green); }
-.pt-space-sublabel { font-size: 11px; font-weight: 600; }
+.pt-space-sublabel { font-size: 13px; font-weight: 750; }
 
 @media (max-width: 1024px) {
   .pt-spaces-card { grid-template-columns: repeat(4, 1fr); }
