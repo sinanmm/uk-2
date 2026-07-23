@@ -16,21 +16,18 @@ export default function Footer() {
         <div>
           <h3>Quick Links</h3>
           <Link href="/">Home</Link>
-          <Link href="/tiles">Tiles</Link>
+          <Link href="/porcelain-tiles#our-products">Tiles</Link>
           <Link href="/about">About Us</Link>
           <Link href="/contact">Contact Us</Link>
         </div>
         <div>
           <h3>Our Products</h3>
-          <Link href="/porcelain-tiles#our-products">20mm Outdoor Pavers</Link>
-          <Link href="/porcelain-tiles#our-products">R11 Anti-Slip Tiles</Link>
-          <Link href="/porcelain-tiles#our-products">Natural Stone Effects</Link>
-          <Link href="/porcelain-tiles#our-products">Commercial Porcelain</Link>
+          <Link href="/porcelain-tiles#our-products">Suitable For Every Space</Link>
+          <Link href="/porcelain-tiles#r11-anti-slip">R11 Anti-Slip Tiles</Link>
         </div>
         <div className="footer-contact">
           <h3>Contact Us</h3>
-          <a href="tel:00447407048979"><Icon name="phone" size={17}/>0044-7407048979</a>
-          <a href="tel:+441212493778"><Icon name="phone" size={17}/>0121 249 3778</a>
+          <a href="tel:07407048979"><Icon name="phone" size={17}/>07407048979</a>
           <a href="mailto:info@puresurface.co.uk"><Icon name="mail" size={17}/>info@puresurface.co.uk</a>
           <span><Icon name="truck" size={18}/>Nationwide UK delivery</span>
         </div>

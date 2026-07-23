@@ -5,7 +5,7 @@ import { antiSlipApplications, antiSlipSizes } from "@/lib/data/porcelain-tiles"
 
 export default function AntiSlipSection() {
   return (
-    <section className="pt-antislip-section">
+    <section id="r11-anti-slip" className="pt-antislip-section">
       <div className="container">
         <Reveal>
           <div className="pt-antislip-card">

@@ -34,7 +34,7 @@ export default function AboutPage() {
       <section className="section about-story">
         <div className="container story-grid">
           <Reveal className="story-image">
-            <Image src="/images/category-outdoor.jpg" alt="Premium outdoor porcelain patio" fill sizes="(max-width: 800px) 100vw, 50vw" />
+            <Image src="/images/about-outdoor-porcelain-4k.png" alt="Premium 20mm outdoor porcelain pavers patio" fill sizes="(max-width: 800px) 100vw, 50vw" priority />
             <div className="story-badge"><strong>20mm</strong><span>Outdoor Porcelain Pavers</span></div>
           </Reveal>
           <Reveal className="story-copy" delay={100}>
@@ -91,10 +91,8 @@ export default function AboutPage() {
             <p>Pure Surface Solutions – premium outdoor porcelain solutions built to last.</p>
           </Reveal>
           <div className="contact-band-details">
-            <a href="tel:00447407048979"><Icon name="phone"/>0044-7407048979</a>
-            <a href="tel:+441212493778"><Icon name="phone"/>0121 249 3778</a>
+            <a href="tel:07407048979"><Icon name="phone"/>07407048979</a>
             <a href="mailto:info@puresurface.co.uk"><Icon name="mail"/>info@puresurface.co.uk</a>
-            <a href="https://bayshieldinternational.com"><Icon name="map"/>bayshieldinternational.com</a>
           </div>
         </div>
       </section>

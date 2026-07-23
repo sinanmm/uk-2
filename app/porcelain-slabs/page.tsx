@@ -104,11 +104,11 @@ export default function PorcelainSlabsPage() {
       <section className="slabs-hero">
         <div className="slabs-hero-bg">
           <Image 
-            src="/images/porcelain-slabs/hero-slabs-4k-unzoomed.png" 
-            alt="Luxury modern kitchen with a large 4K marble-effect porcelain slab island" 
+            src="/images/porcelain-slabs/hero-slabs-black-marble-4k.png" 
+            alt="Luxury modern kitchen with a black marble porcelain slab waterfall island" 
             fill 
             priority
-            style={{ objectFit: 'cover', objectPosition: 'center 40%' }} 
+            style={{ objectFit: 'cover', objectPosition: 'center center' }} 
             sizes="100vw"
           />
         </div>

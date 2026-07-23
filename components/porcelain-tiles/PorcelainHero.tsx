@@ -5,13 +5,13 @@ import Reveal from "@/components/Reveal";
 
 export default function PorcelainHero() {
   return (
-    <section className="pt-redesign-hero">
+    <section id="hero" className="pt-redesign-hero">
       <div 
         className="pt-hero-bg-wrapper"
         style={{ 
-          backgroundImage: 'url("/images/porcelain-tiles/hero-porcelain-living-room-new.png")',
+          backgroundImage: 'url("/images/porcelain-tiles/hero-porcelain-calacatta-kitchen-4k.png")',
           backgroundSize: 'cover',
-          backgroundPosition: 'right center',
+          backgroundPosition: 'center center',
           zIndex: 0
         }}
       >

@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   description:
     "Premium 20mm outdoor porcelain pavers with R11 anti-slip performance, nationwide delivery across the UK.",
-  metadataBase: new URL("https://bayshieldinternational.com")
+  metadataBase: new URL("https://puresurface.co.uk")
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

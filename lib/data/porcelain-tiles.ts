@@ -51,12 +51,10 @@ export interface TileSize {
 }
 
 export const tileSizes: TileSize[] = [
-  { w: 600, h: 600 },
   { w: 600, h: 300, landscape: true },
+  { w: 600, h: 600 },
   { w: 600, h: 900, landscape: false },
-  { w: 800, h: 800 },
   { w: 1200, h: 600, landscape: true },
-  { w: 1200, h: 1200 },
 ];
 
 export interface TileFinish {
@@ -106,8 +104,5 @@ export const antiSlipApplications = [
 ];
 
 export const antiSlipSizes = [
-  { w: 600, h: 600 },
   { w: 600, h: 900 },
-  { w: 800, h: 800 },
-  { w: 1200, h: 600 },
 ];

@@ -49,9 +49,6 @@ export default function ProductSpecifications() {
                   </div>
                 ))}
               </div>
-              <a href="#contact" className="pt-more-sizes-btn">
-                More sizes available on request
-              </a>
             </div>
 
             {/* Finishes Available */}
@@ -80,16 +77,11 @@ export default function ProductSpecifications() {
               <h3 className="pt-spec-title">THICKNESS AVAILABLE</h3>
               <div className="pt-thickness-visual">
                 <div className="pt-stack-illustration">
-                  <div className="pt-stack-layer" style={{ transform: "translateY(-12px)" }}></div>
-                  <div className="pt-stack-layer" style={{ transform: "translateY(-6px)" }}></div>
                   <div className="pt-stack-layer" style={{ transform: "translateY(0)" }}></div>
                 </div>
               </div>
               <ul className="pt-thickness-list">
-                <li>9mm</li>
-                <li>10mm</li>
-                <li>12mm</li>
-                <li>20mm (Outdoor R11)</li>
+                <li>8.5mm</li>
               </ul>
             </div>
           </div>

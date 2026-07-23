@@ -26,7 +26,7 @@ export default function Header() {
       <div className="topbar">
         <div className="container topbar-inner">
           <div className="topbar-group">
-            <a href="tel:00447407048979"><Icon name="phone" size={16} />0044-7407048979</a>
+            <a href="tel:07407048979"><Icon name="phone" size={16} />07407048979</a>
             <a href="mailto:info@puresurface.co.uk"><Icon name="mail" size={16} />info@puresurface.co.uk</a>
           </div>
           <div className="topbar-group topbar-right">
@@ -45,7 +45,8 @@ export default function Header() {
 
           <nav className={`main-nav ${open ? "open" : ""}`} aria-label="Primary navigation">
             {nav.map((item) => {
-              const active = item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);
+              const baseHref = item.href.split("#")[0];
+              const active = item.href === "/" ? pathname === "/" : pathname.startsWith(baseHref);
               return (
                 <Link key={item.href} href={item.href} className={active ? "active" : ""} onClick={() => setOpen(false)}>
                   {item.label}

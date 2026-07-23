@@ -1,5 +1,9 @@
 @import "./porcelain-tiles.css";
 @import "./porcelain-slabs/slabs.css";
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --navy: #062743;
   --navy-2: #0a3558;

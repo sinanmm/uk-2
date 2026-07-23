@@ -29,10 +29,8 @@ export default function ContactPage() {
             <p>Contact us for outdoor porcelain recommendations, availability, quotations and nationwide UK delivery.</p>
 
             <div className="contact-card-list">
-              <a href="tel:00447407048979" className="contact-card"><span><Icon name="phone"/></span><div><small>Mobile / WhatsApp</small><strong>0044-7407048979</strong></div><Icon name="chevron" size={20}/></a>
-              <a href="tel:+441212493778" className="contact-card"><span><Icon name="phone"/></span><div><small>Office</small><strong>0121 249 3778</strong></div><Icon name="chevron" size={20}/></a>
+              <a href="tel:07407048979" className="contact-card"><span><Icon name="phone"/></span><div><small>Phone / WhatsApp</small><strong>07407048979</strong></div><Icon name="chevron" size={20}/></a>
               <a href="mailto:info@puresurface.co.uk" className="contact-card"><span><Icon name="mail"/></span><div><small>Email</small><strong>info@puresurface.co.uk</strong></div><Icon name="chevron" size={20}/></a>
-              <a href="tel:00447407048979" className="contact-card"><span><Icon name="phone"/></span><div><small>Sales line</small><strong>0044-7407048979</strong></div><Icon name="chevron" size={20}/></a>
             </div>
 
             <a className="button button-whatsapp button-large" href="https://wa.me/447407048979?text=Hello%20Pure%20Surface%20Solutions%2C%20I%27d%20like%20to%20discuss%20an%20outdoor%20porcelain%20project." target="_blank" rel="noreferrer"><Icon name="whatsapp" size={21}/> Start WhatsApp Chat</a>
