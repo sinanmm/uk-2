@@ -251,23 +251,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="about-split">
-        <Reveal className="about-intro">
-          <span className="eyebrow">About Us</span>
-          <h2>The Trusted Choice for Outdoor Porcelain</h2>
-          <p>Pure Surface Solutions supplies premium porcelain pavers for residential, landscape and commercial projects across the UK. Our collections combine refined design, reliable grip and long-lasting performance.</p>
-          <Link href="/about" className="text-link">Discover Pure Surface Solutions <Icon name="arrow" size={18}/></Link>
-        </Reveal>
-        <Reveal className="why-panel" delay={100}>
-          <span className="eyebrow">Why Choose Us</span>
-          <div className="why-grid">
-            <div><Icon name="grid" size={36}/><h3>Modern Designs</h3><p>Natural stone effects and contemporary outdoor finishes.</p></div>
-            <div><Icon name="shield" size={36}/><h3>R11 Anti-Slip</h3><p>Excellent grip and safer outdoor living in wet conditions.</p></div>
-            <div><Icon name="tag" size={36}/><h3>Project Value</h3><p>Competitive supply for homeowners, trade and developers.</p></div>
-            <div><Icon name="truck" size={36}/><h3>UK Delivery</h3><p>Safe, secure and convenient nationwide delivery.</p></div>
-          </div>
-        </Reveal>
-      </section>
+
 
       <section className="help-strip">
         <div className="container help-inner">

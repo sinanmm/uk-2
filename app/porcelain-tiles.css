@@ -437,10 +437,10 @@
   font-size: 14px; font-weight: 500; color: var(--pt-text-sec);
   margin: 0 0 20px 0;
 }
-.pt-antislip-bullets { list-style: none; padding: 0; margin: 0; }
+.pt-antislip-bullets { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 18px; }
 .pt-antislip-bullets li {
-  display: flex; align-items: center; gap: 10px;
-  font-size: 14px; font-weight: 600; margin-bottom: 12px;
+  display: flex; align-items: center; gap: 12px;
+  font-size: 14px; font-weight: 600;
 }
 .pt-check-icon { color: var(--pt-green); flex-shrink: 0; }
 
@@ -512,7 +512,7 @@
 .pt-btn-email:hover { background: rgba(90, 174, 50, 0.1); }
 .pt-cta-divider { width: 1px; height: 100px; background: rgba(255,255,255,0.1); }
 .pt-cta-right { flex: 1; }
-.pt-cta-right ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px; }
+.pt-cta-right ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 18px; }
 .pt-cta-right li { display: flex; align-items: center; gap: 12px; font-size: 14px; font-weight: 500; }
 
 @media (max-width: 1024px) {
