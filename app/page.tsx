@@ -9,7 +9,7 @@ const whatsappUrl =
 const benefits = [
   { icon: "diamond" as const, title: "Premium Quality", text: "Full-body porcelain surfaces" },
   { icon: "shield" as const, title: "Durable & Long Lasting", text: "Built to perform in UK weather" },
-  { icon: "truck" as const, title: "Delivered Across UK", text: "Fast, reliable and secure delivery" },
+  { icon: "truck" as const, title: "Nationwide Delivery", text: "Fast, reliable and secure delivery" },
   { icon: "tag" as const, title: "Competitive Prices", text: "Excellent trade and project value" }
 ];
 
@@ -43,7 +43,7 @@ export default function HomePage() {
           <Reveal className="hero-copy">
             <h1>Premium <em>Porcelain Tiles</em> & Slabs</h1>
             <div className="hero-rule" />
-            <h2>Supplying for Residential & Commercial Projects across the UK</h2>
+            <h2>Supplying for Residential & Commercial Projects</h2>
             <div className="hero-actions">
               <Link href="/contact" className="button button-primary button-large">Get a Quote <Icon name="arrow" size={19}/></Link>
               <a href={whatsappUrl} target="_blank" rel="noreferrer" className="button button-outline button-large"><Icon name="whatsapp" size={20}/> Chat on WhatsApp</a>
@@ -214,7 +214,7 @@ export default function HomePage() {
             <div className="section-title">
               <span/><h2>We Supply &amp; Support</h2><span/>
             </div>
-            <p>Premium porcelain tiles and slabs for every project.<br/>Trusted by professionals and homeowners <strong style={{color: '#5d9d2b'}}>across the UK.</strong></p>
+            <p>Premium porcelain tiles and slabs for every project.<br/>Trusted by professionals and homeowners.</p>
             <div className="audience-grid">
               {audiences.map((audience) => (
                 <div className="audience-card" key={audience.label}>

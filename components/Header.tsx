@@ -10,7 +10,6 @@ const nav = [
   { href: "/", label: "Home" },
   { href: "/porcelain-tiles", label: "Porcelain Tiles" },
   { href: "/porcelain-slabs", label: "Porcelain Slabs" },
-  { href: "/about", label: "About Us" },
   { href: "/contact", label: "Contact Us" }
 ];
 
@@ -26,12 +25,12 @@ export default function Header() {
       <div className="topbar">
         <div className="container topbar-inner">
           <div className="topbar-group">
-            <a href="tel:07407048979"><Icon name="phone" size={16} />07407048979</a>
-            <a href="mailto:info@puresurface.co.uk"><Icon name="mail" size={16} />info@puresurface.co.uk</a>
+            <a href="tel:07407048979"><Icon name="phone" size={16} /> 07407048979</a>
+            <a href="mailto:info@puresurface.co.uk"><Icon name="mail" size={16} /> info@puresurface.co.uk</a>
           </div>
           <div className="topbar-group topbar-right">
-            <span><Icon name="truck" size={18} />Delivered Across UK</span>
-            <a href="#" aria-label="Instagram"><Icon name="instagram" size={17} /></a>
+            <span><Icon name="truck" size={18} /> Delivered Across the UK</span>
+            <a href="https://www.instagram.com/pure.surfacesolutions?igsh=N2Q3dW9uaGJ6dm1s" target="_blank" rel="noreferrer" aria-label="Instagram"><Icon name="instagram" size={17} /></a>
             <a href="#" aria-label="Facebook"><Icon name="facebook" size={17} /></a>
           </div>
         </div>

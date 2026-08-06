@@ -37,7 +37,7 @@ export default function ContactCTA() {
                 <li><CheckCircle2 size={18} className="pt-check-icon"/> Expert advice for your project</li>
                 <li><CheckCircle2 size={18} className="pt-check-icon"/> Samples available on request</li>
                 <li><CheckCircle2 size={18} className="pt-check-icon"/> Fast response within 24 hours</li>
-                <li><CheckCircle2 size={18} className="pt-check-icon"/> Nationwide delivery across the UK</li>
+                <li><CheckCircle2 size={18} className="pt-check-icon"/> Nationwide delivery</li>
               </ul>
             </div>
           </div>

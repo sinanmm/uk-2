@@ -43,27 +43,6 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="section service-area-section">
-        <div className="container service-area-grid">
-          <Reveal className="service-map">
-            <div className="map-pulse p1"/><div className="map-pulse p2"/><div className="map-pulse p3"/>
-            <Icon name="map" size={110}/>
-            <strong>Delivered Across the UK</strong>
-            <span>Safe, convenient nationwide project supply.</span>
-          </Reveal>
-          <Reveal className="service-copy" delay={100}>
-            <span className="eyebrow">Nationwide Delivery</span>
-            <h2>Direct delivery for homes, trades and developments.</h2>
-            <p>We support residential and commercial projects across the UK. Send us your postcode, required square metres and preferred style for a tailored quotation.</p>
-            <div className="delivery-points">
-              <div><Icon name="check"/>Full project supply</div>
-              <div><Icon name="check"/>Smaller quantity orders</div>
-              <div><Icon name="check"/>Trade and developer enquiries</div>
-              <div><Icon name="check"/>Product selection guidance</div>
-            </div>
-          </Reveal>
-        </div>
-      </section>
     </>
   );
 }
