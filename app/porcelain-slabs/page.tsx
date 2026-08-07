@@ -7,6 +7,7 @@ import {
 } from "lucide-react";
 import Icon from "@/components/Icon";
 import Reveal from "@/components/Reveal";
+import CatalogueSection from "@/components/CatalogueSection";
 import "./slabs.css";
 
 // ---------------------------------------------------------
@@ -75,9 +76,9 @@ const performanceFeatures = [
 ];
 
 const contactOptions = [
-  { id: 'whatsapp', icon: 'whatsapp', title: 'WhatsApp Us', desc: 'Chat with our team instantly', type: 'link', href: 'https://wa.me/447700900077', target: '_blank', rel: 'noopener noreferrer' },
-  { id: 'quote', icon: 'document', title: 'Get a Quote', desc: 'Get a personalised quote today', type: 'link', href: '/quote' },
-  { id: 'support', icon: 'headset', title: 'Expert Support', desc: "We're here to help you every step of the way", type: 'link', href: '/contact' },
+  { id: 'whatsapp', icon: 'whatsapp', title: 'WhatsApp Us', desc: 'Chat with our team instantly', href: 'https://wa.me/447407048979?text=Hello%20Pure%20Surface%20Solutions%2C%20I%27d%20like%20to%20enquire%20about%20porcelain%20slabs.', target: '_blank', rel: 'noopener noreferrer' },
+  { id: 'quote', icon: 'document', title: 'Get a Quote', desc: 'Get a personalised quote today', href: '/contact' },
+  { id: 'support', icon: 'headset', title: 'Expert Support', desc: "We're here to help you every step of the way", href: '/contact' },
 ];
 
 const bottomBenefits = [
@@ -255,28 +256,50 @@ export default function PorcelainSlabsPage() {
               <p className="slabs-cta-p">Our surface experts are here to help you find the perfect match for your project.</p>
               
               <div className="slabs-cta-actions">
-                {contactOptions.map((opt) => (
-                  <Link 
-                    key={opt.id} 
-                    href={opt.href!} 
-                    className="slabs-cta-link"
-                    target={opt.target}
-                    rel={opt.rel}
-                  >
-                    <div className="slabs-cta-icon-wrap">
-                      <Icon name={opt.icon as any} size={24} />
-                    </div>
-                    <div className="slabs-cta-text">
-                      <strong>{opt.title}</strong>
-                      <small>{opt.desc}</small>
-                    </div>
-                  </Link>
-                ))}
+                {contactOptions.map((opt) => {
+                  const isExternal = opt.href.startsWith("http");
+                  if (isExternal) {
+                    return (
+                      <a 
+                        key={opt.id} 
+                        href={opt.href} 
+                        className="slabs-cta-link"
+                        target={opt.target || "_blank"}
+                        rel={opt.rel || "noopener noreferrer"}
+                      >
+                        <div className="slabs-cta-icon-wrap">
+                          <Icon name={opt.icon as any} size={24} />
+                        </div>
+                        <div className="slabs-cta-text">
+                          <strong>{opt.title}</strong>
+                          <small>{opt.desc}</small>
+                        </div>
+                      </a>
+                    );
+                  }
+                  return (
+                    <Link 
+                      key={opt.id} 
+                      href={opt.href} 
+                      className="slabs-cta-link"
+                    >
+                      <div className="slabs-cta-icon-wrap">
+                        <Icon name={opt.icon as any} size={24} />
+                      </div>
+                      <div className="slabs-cta-text">
+                        <strong>{opt.title}</strong>
+                        <small>{opt.desc}</small>
+                      </div>
+                    </Link>
+                  );
+                })}
               </div>
             </div>
           </section>
         </Reveal>
       </div>
+
+      <CatalogueSection title="PORCELAIN SLABS & SURFACE CATALOGUES" />
 
       {/* 6. Bottom Benefits Strip */}
       <section className="slabs-benefits-strip">

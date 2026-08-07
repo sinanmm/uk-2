@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Icon from "@/components/Icon";
 import Reveal from "@/components/Reveal";
+import CatalogueSection from "@/components/CatalogueSection";
 
 const whatsappUrl =
   "https://wa.me/447407048979?text=Hello%20Pure%20Surface%20Solutions%2C%20I%27d%20like%20a%20quote%20for%20outdoor%20porcelain%20pavers.";
@@ -175,34 +176,34 @@ export default function HomePage() {
         </div>
         <div className="contact-strip-bar">
           <div className="container contact-strip-grid">
-            <div className="contact-strip-item">
+            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="contact-strip-item">
               <div className="icon-wrap solid-green"><Icon name="whatsapp" size={24}/></div>
               <div>
                 <strong>WHATSAPP US</strong>
                 <small>Chat with our team instantly</small>
               </div>
-            </div>
-            <div className="contact-strip-item">
+            </a>
+            <a href="mailto:info@puresurface.co.uk" className="contact-strip-item">
               <div className="icon-wrap outline-green"><Icon name="mail" size={24}/></div>
               <div>
                 <strong>EMAIL US</strong>
                 <small>Send us your requirements</small>
               </div>
-            </div>
-            <div className="contact-strip-item">
+            </a>
+            <Link href="/contact" className="contact-strip-item">
               <div className="icon-wrap outline-green"><Icon name="document" size={24}/></div>
               <div>
                 <strong>REQUEST A QUOTE</strong>
                 <small>Get a personalised quote today</small>
               </div>
-            </div>
-            <div className="contact-strip-item">
+            </Link>
+            <Link href="/contact" className="contact-strip-item">
               <div className="icon-wrap outline-green"><Icon name="headset" size={24}/></div>
               <div>
                 <strong>EXPERT SUPPORT</strong>
                 <small>Our surface experts are here to help you choose right</small>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </section>
@@ -251,7 +252,7 @@ export default function HomePage() {
         </div>
       </section>
 
-
+      <CatalogueSection />
 
       <section className="help-strip">
         <div className="container help-inner">

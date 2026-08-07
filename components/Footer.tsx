@@ -16,13 +16,16 @@ export default function Footer() {
         <div>
           <h3>Quick Links</h3>
           <Link href="/">Home</Link>
-          <Link href="/porcelain-tiles#our-products">Tiles</Link>
+          <Link href="/porcelain-tiles">Porcelain Tiles</Link>
+          <Link href="/porcelain-slabs">Porcelain Slabs</Link>
+          <Link href="/catalogues">Catalogues &amp; PDFs</Link>
           <Link href="/contact">Contact Us</Link>
         </div>
         <div>
           <h3>Our Products</h3>
           <Link href="/porcelain-tiles#our-products">Suitable For Every Space</Link>
           <Link href="/porcelain-tiles#r11-anti-slip">R11 Anti-Slip Tiles</Link>
+          <Link href="/catalogues">Download Catalogues</Link>
         </div>
         <div className="footer-contact">
           <h3>Contact Us</h3>

@@ -41,7 +41,9 @@ type IconName =
   | "spray"
   | "scatter"
   | "droplet"
-  | "calendar";
+  | "calendar"
+  | "download"
+  | "eye";
 
 interface IconProps extends SVGProps<SVGSVGElement> {
   name: IconName;
@@ -102,7 +104,9 @@ export default function Icon({ name, size = 22, ...props }: IconProps) {
     spray: <><path d="M13 4h2a2 2 0 0 1 2 2v14H7V6a2 2 0 0 1 2-2h2"/><path d="M10 2v2"/><path d="M14 2v2"/><path d="M9 6v3"/><path d="M15 6v3"/><path d="M5 22v-4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v4"/></>,
     scatter: <><circle cx="5" cy="5" r="2"/><circle cx="19" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><circle cx="12" cy="12" r="2"/></>,
     droplet: <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>,
-    calendar: <><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></>
+    calendar: <><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></>,
+    download: <><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></>,
+    eye: <><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></>
   };
 
   return <svg {...common} {...props}>{paths[name]}</svg>;

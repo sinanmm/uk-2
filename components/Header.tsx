@@ -10,6 +10,7 @@ const nav = [
   { href: "/", label: "Home" },
   { href: "/porcelain-tiles", label: "Porcelain Tiles" },
   { href: "/porcelain-slabs", label: "Porcelain Slabs" },
+  { href: "/catalogues", label: "Catalogues" },
   { href: "/contact", label: "Contact Us" }
 ];
 
