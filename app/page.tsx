@@ -3,6 +3,7 @@ import Link from "next/link";
 import Icon from "@/components/Icon";
 import Reveal from "@/components/Reveal";
 import CatalogueSection from "@/components/CatalogueSection";
+import VideoReel from "@/components/VideoReel";
 
 const whatsappUrl =
   "https://wa.me/447407048979?text=Hello%20Pure%20Surface%20Solutions%2C%20I%27d%20like%20a%20quote%20for%20outdoor%20porcelain%20pavers.";
@@ -225,6 +226,9 @@ export default function HomePage() {
                 </div>
               ))}
             </div>
+          </Reveal>
+          <Reveal className="video-reel-wrapper" delay={60}>
+            <VideoReel />
           </Reveal>
           <Reveal className="delivery-card" delay={120}>
             <div className="delivery-card-header">
