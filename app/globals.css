@@ -956,6 +956,7 @@ main { overflow: hidden; }
   .serve-copy { grid-column: span 1; }
   .delivery-card { grid-column: span 1; }
   .audience-grid { grid-template-columns: repeat(2, 1fr); }
+  .product-cards-wrap { grid-template-columns: 1fr; gap: 44px; }
 }
   .about-split { grid-template-columns: 1fr; }
   .about-intro, .why-panel { padding: 48px 30px; }
@@ -1001,7 +1002,27 @@ main { overflow: hidden; }
   .thickness-grid { grid-template-columns: 1fr; }
   .r11-card { grid-template-columns: 1fr; text-align: center; }
   .r11-card > svg { margin: auto; }
-  .tile-size-grid, .slab-size-grid { grid-template-columns: 1fr 1fr; }
+  .product-cards-wrap { gap: 36px; padding-bottom: 30px; }
+  .product-card-inner { padding: 36px 14px 20px; }
+  .product-badge { font-size: 12px; height: 38px; padding: 0 18px; top: -19px; white-space: nowrap; }
+  .product-subhead { margin-bottom: 16px; font-size: 12px; }
+  .tile-size-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  .tile-size-box { height: 105px; padding: 10px 4px; gap: 8px; }
+  .tile-size-box span { font-size: 11px; }
+  .slab-size-grid { grid-template-columns: repeat(3, 1fr); gap: 6px; margin-bottom: 20px; }
+  .slab-size-box { height: 230px; padding: 16px 4px 14px; }
+  .slab-size-box .green-text { font-size: 16px; }
+  .slab-size-box small { font-size: 10px; }
+  .slab-size-box span { font-size: 11px; }
+  .shape-iso-slab { width: 48px; height: 22px; margin: 30px auto auto; transform: skewX(-30deg); }
+  .shape-iso-slab::before { right: -1px; bottom: -4px; height: 3px; transform: skewX(30deg) translate(2px, 0); }
+  .shape-iso-slab.thick-12::before { height: 6px; bottom: -7px; transform: skewX(30deg) translate(3px, 0); }
+  .shape-iso-slab.thick-20::before { height: 10px; bottom: -11px; transform: skewX(30deg) translate(4px, 0); }
+  .anti-slip-banner { margin: 18px 0; padding: 14px 12px; gap: 12px; min-height: 85px; }
+  .anti-slip-text { max-width: 100%; }
+  .anti-slip-text strong { font-size: 13px; margin-bottom: 3px; }
+  .anti-slip-text p { font-size: 11px; line-height: 1.4; }
+  .anti-slip-bg { width: 30%; opacity: 0.4; }
   .contact-strip-grid { grid-template-columns: 1fr; gap: 20px; align-items: flex-start; justify-items: flex-start; }
   .contact-strip-item { justify-content: flex-start; }
   .contact-strip-item::after { display: none; }
