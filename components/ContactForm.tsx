@@ -28,7 +28,7 @@ export default function ContactForm() {
         <label><span>Phone number</span><input name="phone" type="tel" placeholder="Your contact number" /></label>
         <label><span>Project type</span>
           <select name="project" defaultValue="Patio">
-            <option>Patio</option><option>Garden</option><option>Pathway</option><option>Terrace</option><option>Driveway</option><option>Commercial project</option>
+            <option>Patio</option><option>Garden</option><option>Pathway</option><option>Terrace</option><option>Driveway</option><option>Commercial project</option><option>Others</option>
           </select>
         </label>
       </div>

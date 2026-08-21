@@ -111,19 +111,6 @@ export default function CatalogueSection({
             </Reveal>
           ))}
         </div>
-
-        <div className="catalogue-footer-note">
-          <div className="catalogue-note-inner">
-            <Icon name="headset" size={28} />
-            <div>
-              <strong>Need custom physical catalogues or trade sample boxes?</strong>
-              <p>Contact our technical surface team for trade accounts, physical architectural sample boxes, and custom project quotes.</p>
-            </div>
-            <a href="/contact" className="button button-outline button-small">
-              Request Samples
-            </a>
-          </div>
-        </div>
       </div>
     </section>
   );
