@@ -45,7 +45,7 @@ export default function HomePage() {
           <Reveal className="hero-copy">
             <h1>Premium <em>Porcelain Tiles</em> & Slabs</h1>
             <div className="hero-rule" />
-            <h2>Supplying for Residential & Commercial Projects</h2>
+            <h2>Supplying for Residential & Commercial Projects across the UK</h2>
             <div className="hero-actions">
               <Link href="/contact" className="button button-primary button-large">Get a Quote <Icon name="arrow" size={19}/></Link>
               <a href={whatsappUrl} target="_blank" rel="noreferrer" className="button button-outline button-large"><Icon name="whatsapp" size={20}/> Chat on WhatsApp</a>
